@@ -11,7 +11,7 @@
     --font-family: 'Archivo', ui-sans-serif, sans-serif;    
     --background-color: #000000;
 }
-h1,h2,h3,h4,h5,h6{
+.container > h1,h2,h3,h4,h5,h6{
     font-family: 'Syne', ui-sans-serif, sans-serif !important;
 }
 body{
@@ -53,4 +53,9 @@ body{
     background-color: #101720;
     color: white;
     border: #101720;
+}
+#cc-main {
+    --cc-font-family: InterVariable, inter, ui-sans-serif, sans-serif;
+    --cc-modal-border-radius: 4px;
+    --cc-btn-border-radius: 4px;
 }
