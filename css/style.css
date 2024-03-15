@@ -1,8 +1,10 @@
 @import url('https://fonts.bunny.net/css?family=exo-2:400,500,600,700,800');
-@import url('https://rsms.me/inter/inter.css');
 :root {
     --font-family: 'Exo 2', -apple-system, blinkmacsystemfont, ui-sans-serif, system-ui, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1;
+    --cc-font-family: var(--font-family);
+    --cc-modal-border-radius: 4px;
+    --cc-btn-border-radius: 4px;
   }
 body{
     background-image: linear-gradient(rgb(0, 75, 173), rgb(29, 4, 83)) !important;
@@ -43,9 +45,4 @@ body{
     background-color: #101720;
     color: white;
     border: #101720;
-}
-#cc-main {
-    --cc-font-family: InterVariable, inter, ui-sans-serif, sans-serif;
-    --cc-modal-border-radius: 4px;
-    --cc-btn-border-radius: 4px;
 }
