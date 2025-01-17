@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head data-theme="dark">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star08-web - Link in Bio</title>
@@ -9,30 +9,39 @@
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="manifest" href="/img/site.webmanifest">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.css">
 </head>
-<body data-theme="dark">
+<body>
+    <div class="site-wrap">
+        <div class="bg"></div>
+    </div>
     <main class="container">
-        <img src="https://www.gravatar.com/avatar/25e906845e0662736518ee996d5c931b" class="img-pfp" width="150" height="150">
-        <h1>Star08-web</h1>
-        <h5>Just a (maybe) developer</h5>
-        <p>@Star08-web</p>
-        <hr>
-        <button class="yt-btn" id="YouTube"><i class="fa-brands fa-youtube"></i> YouTube</button>
-        <br>
-        <button class="ig-btn" id="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</button>
-        <br>
-        <button class="tw-btn" id="Twitter"><i class="fa-brands fa-x-twitter"></i> X (formely Twitter)</button>
-        <br>
-        <button class="gh-btn" id="Github"><i class="fa-brands fa-github"></i> Github</button>
-        <br>
-        <button class="twch-btn" id="Twitch"><i class="fa-brands fa-twitch"></i> Twitch</button>
-        <br>
-        <button class="web-btn" id="Website"><i class="fa-solid fa-globe"></i> Website</button>
+        <div class="grid">
+            <div>
+                <article>
+                    <img src="https://star08-web.pages.dev/img/logo.webp" class="img-pfp" width="150" height="150">
+                    <h1>Star08-web</h1>
+                    <h5>Just a (maybe) developer</h5>
+                    <p>@Star08-web</p>
+                </article>
+            </div>
+            <div>
+                <article>
+                    <button class="yt-btn" id="YouTube"><i class="fa-brands fa-youtube"></i> YouTube</button>
+                    <br>
+                    <button class="ig-btn" id="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</button>
+                    <br>
+                    <button class="tw-btn" id="Twitter"><i class="fa-brands fa-x-twitter"></i> X (formely Twitter)</button>
+                    <br>
+                    <button class="gh-btn" id="Github"><i class="fa-brands fa-github"></i> Github</button>
+                    <br>
+                    <button class="twch-btn" id="Twitch"><i class="fa-brands fa-twitch"></i> Twitch</button>
+                    <br>
+                    <button class="web-btn" id="Website"><i class="fa-solid fa-globe"></i> Website</button>
+                </article>
+            </div>
+        </div>
     </main>
 </body>
     <script src="/fontawesome/js/all.min.js"></script>
     <script src="/script.js"></script>
-    <script type="module" src="./privacy.js"></script>
-    <script type="text/plain" data-category="analytics" data-service="Counter.dev" src="https://cdn.counter.dev/script.js" data-id="4f2402c8-84bd-4c5e-9d4d-079a072bea2c" data-utcoffset="1"></script>
 </html>
